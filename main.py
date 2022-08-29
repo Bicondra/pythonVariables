@@ -1,3 +1,4 @@
+'''
 # print comment
 x = 5
 y = "John"
@@ -47,3 +48,33 @@ print (c)
 age = 36 
 text = "My name is Patricia, I am " + age
 print (txt)
+'''
+# Python Boolean
+# It uses two values True or False, it evaluates any expression to true or to false, Python then evaluates and returns a boolean answer.
+print (10 > 9)
+print (10 == 9)
+print (10 < 9)
+
+# Boolean in a condition (If statement) 
+a = 200
+b = 33
+if b > a:
+  print ("b is greater than a")
+else:
+  print ("a is greater than b")
+  # Evaluate values and variables
+  # Evaluate a string and a number, example function bool
+  print (bool("Hello"))
+print (bool(15))
+# Operators
+# % = modulas
+# // = floor division
+# + = addition
+# - = subtraction
+# / = division
+# Examples
+x = 2
+y = 5
+# print (x % y)
+#print (x // y) #Floor division // rounds the results down to the nearest whole number
+print (x ** y) #Same as 2*2*2*2*2
